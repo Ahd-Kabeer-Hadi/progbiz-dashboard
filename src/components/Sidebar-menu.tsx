@@ -4,6 +4,7 @@ import MenuItem from "./Menu-item";
 
 function SidebarMenu() {
   return (
+    /// sidebar menu, a dedicated menu for smaller screens can be opted out but not added yet
     <aside className="relative min-h-screen w-14 md:w-[84px] bg-white flex-col border-r sm:flex">
       <div className="flex justify-center items-center">
         <a
