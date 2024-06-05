@@ -7,10 +7,13 @@ import Dashboard from "./components/Dashboard";
 function App() {
   return (
     <>
-      <div className="flex min-h-screen w-full bg-[#8181A5]/10">
-        <SidebarMenu />
-
-        <Dashboard />
+      <div className="flex relative min-h-screen w-full  bg-[#8181A5]/10">
+        <div className="fixed z-20">
+          <SidebarMenu />
+        </div>
+        <div className="w-full ml-14 md:ml-[84px]">
+          <Dashboard />
+        </div>
       </div>
     </>
   );
