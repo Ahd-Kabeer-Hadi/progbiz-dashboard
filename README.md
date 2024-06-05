@@ -69,25 +69,6 @@ You can view the hosted version of the project on Vercel [here](https://your-ver
 ### Project Completion
 The task was assigned on a Saturday, and I submitted the completed project on Wednesday after informing the interviewers. The actual development took only a few hours on Wednesday.
 
-## Additional Information
-
-### ESLint Configuration
-This project uses a basic ESLint setup. For production applications, consider expanding the ESLint configuration as follows:
-
-- Update `parserOptions` in the top-level configuration:
-  ```js
-  export default {
-    parserOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
-      project: ['./tsconfig.json', './tsconfig.node.json'],
-      tsconfigRootDir: __dirname,
-    },
-  }
-  ```
-- Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-- Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-- Install `eslint-plugin-react` and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
 
 ## Contact
 For any questions or further information, please feel free to contact me at [ahd.kabeerpi@gmail.com](mailto:ahd.kabeerpi@gmail.com).
