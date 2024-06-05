@@ -1,6 +1,3 @@
-Sure, here is the updated README file with the forking step added:
-
----
 
 # Responsive Web Interface for Progbiz Pvt Ltd
 
@@ -13,6 +10,8 @@ The objective was to replicate the layout and design of a given Figma file as cl
 
 ### Figma Design
 You can view the Figma design file [here](https://www.figma.com/design/C12XbH2YZtELWfETPCk4cE/TEST?node-id=0-1&t=jnGNLfw9UEaejobm-1).
+![Screenshot 2024-06-05 103933](https://github.com/Ahd-Kabeer-Hadi/progbiz-dashboard/assets/120118908/0ca20454-7c2a-496b-921d-efa52f632dcc)
+
 
 ### Focus Areas
 - Replicate the layout and design of the UI as closely as possible
